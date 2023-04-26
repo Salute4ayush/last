@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapls.com/css2 ? family=Nun i to+Sans:wght@200 & display=swip');
+    :root
+    {
+        --font-size: 'Nunito Sans' , sans-serlf;
+    }
+    .class
+    {
+        box-sizing: border-box;
+    }
+    body
+    {
+        overflow: hidden;
+        /* background: linear-gradient(to right ,rgb(65, 28, 110),rgb(223, 223, 23)); */
+        background-image:url(./bg-1.jpg);
+        font-family: var(--font-style);
+    }
+    .login-box
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 312px;
+        padding: 40px;
+        transform: translate(-50%,-50%);
+        background: #252422c9;
+        box-shadow: 0 -2px 63px #6094d2;
+        border-radius: 10px;
+    }
+    .login-box h2
+    {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+    .login-box .user-box input
+    {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 38px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;    
+    }
+    .login-box .user-box label
+    {
+        position: relative;
+        left: 0;
+        top: -60px;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    .login-box .user-box input:focus-label,
+    .login-box .user-box input:valid-label
+    {
+        top: -85px;
+        left:0;
+        color:#8f7cec;
+        font-size:12px;
+    }
+    #submit
+    {
+    color: #cbbddb;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-right: 67px;
+    padding: 10px 33px 10px;
+    padding-left: 13px;
+    }
+    #submit:hover
+    {
+        background: green;
+        color: black;
+        border-radius: 8px;
+        /* box-shadow: 0 0 5px hsl(99, 84%, 52%), 0 0 25px #8f7cec, 0 0 50px #8f7cec, 0 0 10px #8f7cec; */
+    }
+    .button-form
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    #register
+    {
+        font-size: 14px;
+        text-decoration: none;
+        color: #cbbddb;
+        margin: auto;
+        width: 68%;
+        text-align: center;
+    }
+    #register a
+    {
+        margin: auto;
+        color: rgb(255, 98, 0);
+        text-decoration: none;
+    }
